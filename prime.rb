@@ -1,7 +1,7 @@
-def prime?(int)
- if int >= 2
-   (2..int - 1).all? do |x|
-     int % x = 0
+def prime?(i)
+ if i >= 2
+   (2..i - 1).all? do |x|
+    i % x = 0
    end
  else
    false
