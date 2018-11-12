@@ -1,3 +1,3 @@
 def prime?(int)
  if int >= 2
-   int.all?{||
+   int.all?{|number| number != 
